@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project Detail | Jasiel Barreto</title>
+  <title>AI Art | Jasiel Barreto</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
   
   <style>
-    /* ===== VARIABLES & BASE (Mismos colores que la Principal) ===== */
+    /* ===== VARIABLES & BASE ===== */
     :root {
       --bg-color: #1E1E1E;
       --accent-color: #CC9F33;
@@ -59,18 +59,25 @@
 
     /* ===== PROJECT HEADER ===== */
     .project-header {
-      margin-bottom: 40px;
+      margin-bottom: 50px;
     }
 
     .project-title {
       font-size: 2.5rem;
       font-weight: 700;
       color: var(--text-main);
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
 
     .project-title span {
       color: var(--accent-color);
+    }
+
+    .project-desc {
+      color: var(--text-muted);
+      max-width: 750px;
+      font-size: 1.05rem;
+      line-height: 1.6;
     }
 
     /* ===== GALLERY GRID ===== */
@@ -80,7 +87,6 @@
       gap: 20px;
     }
 
-    /* Enlace contenedor que abre la imagen en grande nativamente */
     .gallery-item {
       background-color: var(--card-bg);
       border-radius: 8px;
@@ -114,15 +120,17 @@
 
   <div class="container">
     
-    <!-- Botón para regresar a la principal relativamente -->
+    <!-- Navigation Back to Portfolio Root -->
     <nav class="back-nav">
       <a href="../../index.html" class="back-link">← Back to Portfolio</a>
     </nav>
 
-    <!-- Encabezado del Proyecto -->
+    <!-- Project Header with Introduction -->
     <header class="project-header">
-      <!-- Cambia este título por el del proyecto correspondiente -->
       <h1 class="project-title">Project: <span>AI Art</span></h1>
+      <p class="project-desc">
+        Visual exploration and asset generation using Generative AI. This project showcases the advanced use of prompting methodologies and optimized workflows to create complex visual concepts, digital art, and commercial graphic assets. It demonstrates how AI can complement traditional design processes through precise art direction and technical control.
+      </p>
     </header>
 
     <!-- Galería de Imágenes -->
@@ -144,6 +152,10 @@
         <img src="ComfyUI_00232_.png" alt="Project detail" class="gallery-img">
       </a>
 
+      <a href="ComfyUI_00233_.png" target="_blank" class="gallery-item">
+        <img src="ComfyUI_00233_.png" alt="Project detail" class="gallery-img">
+      </a>
+
        <a href="ComfyUI_00300_.png" target="_blank" class="gallery-item">
         <img src="ComfyUI_00300_.png" alt="Project detail" class="gallery-img">
       </a>
@@ -158,10 +170,6 @@
 
        <a href="Mock Up Luna Pop Decor Montaje Vertical.png" target="_blank" class="gallery-item">
         <img src="Mock Up Luna Pop Decor Montaje Vertical.png" alt="Project detail" class="gallery-img">
-      </a>
-
-       <a href="portada.png" target="_blank" class="gallery-item">
-        <img src="portada.png" alt="Project detail" class="gallery-img">
       </a>
 
       <!-- Puedes seguir duplicando este bloque para añadir tantas imágenes como tenga la carpeta -->
