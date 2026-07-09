@@ -151,6 +151,10 @@
       font-size: 1.2rem;
     }
 
+    .project-header{
+    margin-bottom:60px;
+}
+
     /* ===== AVAILABILITY ===== */
     .availability {
       text-align: center;
