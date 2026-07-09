@@ -78,6 +78,32 @@
       max-width: 750px;
       font-size: 1.05rem;
       line-height: 1.6;
+      margin-bottom: 15px; /* Añadido para dar espacio entre tus tres párrafos */
+    }
+
+    /* ===== CALL TO ACTION BUTTON (ITCH.IO) ===== */
+    .project-buttons {
+      margin: 35px 0 10px 0;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 26px;
+      background-color: var(--accent-color);
+      color: #1E1E1E !important; /* Forza el color oscuro sobre el enlace */
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1.05rem;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+      box-shadow: 0 4px 15px rgba(204, 159, 51, 0.15); /* Sutil resplandor dorado */
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      opacity: 0.95;
     }
 
     /* ===== GALLERY GRID ===== */
@@ -113,6 +139,7 @@
     @media (max-width: 600px) {
       .project-title { font-size: 2rem; }
       .gallery-grid { grid-template-columns: 1fr; }
+      .btn-primary { width: 100%; justify-content: center; } /* Se adapta a pantallas móviles */
     }
   </style>
 </head>
@@ -127,63 +154,52 @@
 
     <!-- Project Header with Introduction -->
     <header class="project-header">
+      <h1 class="project-title">Project: <span>Proyecto Análogo</span></h1>
 
-    <h1 class="project-title">Project: <span>Proyecto Análogo</span></h1>
-
-    <p class="project-desc">
+      <p class="project-desc">
         Proyecto Análogo is an original science fiction game concept that explores parallel realities, mystery, and environmental storytelling through immersive first-person gameplay. 
-    </p>
+      </p>
 
-    <p class="project-desc">
-        As the creator of the project, I developed the visual direction, gameplay interface, promotional assets, and world-building concepts to establish a consistent identity across the experience. The project combines graphic design, UI concepts, AI-assisted image generation, and game development prototypes to communicate the atmosphere and narrative of the fictional universe. 
-    </p>
+      <p class="project-desc">
+        As the creator of the project, I developed the visual direction, gameplay interface, promotional assets, and world-building concepts to establish a consistent identity across the experience. The project combines graphic design, UI concepts, AI-assisted image generation, and game development prototypes to communicate the atmosphere and narrative of the fictional universe.
+      </p>
 
-    <p class="project-desc">
+      <p class="project-desc">
         The result is a multidisciplinary creative project that showcases my ability to transform an original idea into a cohesive visual experience while integrating branding, concept design, and digital content creation. 
-    </p>
+      </p>
 
-    <div class="project-buttons">
-
-    <a
-        href="https://jazzyworsnop.itch.io/proyecto-analogo"
-        target="_blank"
-        class="btn-primary">
-
-        ▶ Play on itch.io
-
-    </a>
-
-</div>
-
-</header>
+      <!-- Botón de Itch.io integrado -->
+      <div class="project-buttons">
+        <a href="https://jazzyworsnop.itch.io/proyecto-analogo" target="_blank" class="btn-primary">
+          ▶ Play on itch.io
+        </a>
+      </div>
+    </header>
 
     <!-- Galería de Imágenes -->
     <main class="gallery-grid">
       
-      <!-- IMAGEN 1 -->
-      <!-- El 'href' apunta directamente al archivo para que el navegador lo abra completo al dar click -->
+      <!-- PORTADA -->
       <a href="portada.png" target="_blank" class="gallery-item">
         <img src="portada.png" alt="Project detail" class="gallery-img">
       </a>
 
-        <a href="Proyecto Análogo Captura 1.png" target="_blank" class="gallery-item">
+      <!-- CAPTURAS -->
+      <a href="Proyecto Análogo Captura 1.png" target="_blank" class="gallery-item">
         <img src="Proyecto Análogo Captura 1.png" alt="Project detail" class="gallery-img">
       </a>
 
-        <a href="Proyecto Análogo Captura 2.png" target="_blank" class="gallery-item">
+      <a href="Proyecto Análogo Captura 2.png" target="_blank" class="gallery-item">
         <img src="Proyecto Análogo Captura 2.png" alt="Project detail" class="gallery-img">
       </a>
 
-        <a href="Proyecto Análogo Captura 3.png" target="_blank" class="gallery-item">
+      <a href="Proyecto Análogo Captura 3.png" target="_blank" class="gallery-item">
         <img src="Proyecto Análogo Captura 3.png" alt="Project detail" class="gallery-img">
       </a>
 
-        <a href="Proyecto Análogo Captura 4.png" target="_blank" class="gallery-item">
+      <a href="Proyecto Análogo Captura 4.png" target="_blank" class="gallery-item">
         <img src="Proyecto Análogo Captura 4.png" alt="Project detail" class="gallery-img">
       </a>
-      
-
-      <!-- Puedes seguir duplicando este bloque para añadir tantas imágenes como tenga la carpeta -->
 
     </main>
 
