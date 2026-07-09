@@ -217,19 +217,6 @@
     font-weight:600;
 }
 
-.hero-photo img{
-
-    width:240px;
-    height:240px;
-
-}
-
-.skills-tags{
-
-    justify-content:center;
-
-}
-
 /* ===== HERO TAGS ===== */
 
 .skills-tags{
@@ -314,6 +301,16 @@
 
     opacity:.95;
 
+}
+
+.btn-primary:link,
+.btn-primary:visited{
+    color:#1E1E1E;
+}
+
+.btn-primary:hover,
+.btn-primary:active{
+    color:#1E1E1E;
 }
 
 /* ===== PROJECT OVERVIEW ===== */
