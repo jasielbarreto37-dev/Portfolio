@@ -5,185 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Jasiel Barreto — Portfolio" />
   <title>Jasiel Barreto | Portfolio</title>
+  <link rel="icon" type="image/png" sizes="512x512" href="favicon-512.png">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
   
-  <style>
-    /* ===== VARIABLES & BASE ===== */
-    :root {
-      --bg-color: #1E1E1E;         /* Fondo oscuro elegante */
-      --accent-color: #CC9F33;     /* Dorado principal */
-      --card-bg: #363636;          /* Carbón secundario */
-      --text-main: #E0E0E0;        /* Blanco roto para máxima legibilidad */
-      --text-muted: #A0A0A0;      /* Gris para textos secundarios */
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-main);
-      font-family: 'Inter', sans-serif;
-      line-height: 1.6;
-      padding: 0 20px;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 60px 0;
-    }
-
-    /* ===== HERO SECTION ===== */
-    .hero {
-      padding: 100px 0 60px 0;
-      text-align: center;
-    }
-
-    .hero h1 {
-      font-size: 3rem;
-      font-weight: 700;
-      letter-spacing: -1px;
-      margin-bottom: 10px;
-    }
-
-    .hero h1 span {
-      color: var(--accent-color);
-    }
-
-    /* ===== INTRODUCTION ===== */
-    .intro-text {
-      font-size: 1.25rem;
-      font-weight: 300;
-      color: var(--text-main);
-      max-width: 800px;
-      margin: 0 auto 80px auto;
-      text-align: center;
-      border-left: 3px solid var(--accent-color);
-      padding-left: 20px;
-    }
-
-    /* ===== PROJECTS GRID ===== */
-    .section-title {
-      font-size: 1.5rem;
-      color: var(--accent-color);
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      margin-bottom: 30px;
-      font-weight: 600;
-    }
-
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 25px;
-      margin-bottom: 80px;
-    }
-
-    .project-card {
-      background-color: var(--card-bg);
-      border-radius: 8px;
-      overflow: hidden;
-      text-decoration: none;
-      color: var(--text-main);
-      transition: transform 0.2s ease, border-color 0.2s ease;
-      border: 1px solid transparent;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .project-card:hover {
-      transform: translateY(-5px);
-      border-color: var(--accent-color);
-    }
-
-    .project-cover {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      background-color: #262626; /* Fallback si no carga la imagen */
-    }
-
-    .project-info {
-      padding: 20px;
-      flex-grow: 1;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .project-name {
-      font-size: 1.1rem;
-      font-weight: 600;
-    }
-
-    .project-arrow {
-      color: var(--accent-color);
-      font-size: 1.2rem;
-    }
-
-    /* ===== AVAILABILITY ===== */
-    .availability {
-      text-align: center;
-      font-size: 1.2rem;
-      color: var(--text-muted);
-      max-width: 600px;
-      margin: 0 auto 80px auto;
-      padding: 20px;
-      border-bottom: 1px solid #444;
-    }
-
-    /* ===== CONTACT PANEL ===== */
-    .contact-panel {
-      background-color: var(--card-bg);
-      border-radius: 12px;
-      padding: 40px;
-      text-align: center;
-      border: 1px solid #444;
-    }
-
-    .contact-panel h2 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-    }
-
-    .contact-name {
-      font-size: 1.3rem;
-      color: var(--accent-color);
-      font-weight: 600;
-      margin-bottom: 20px;
-    }
-
-    .contact-details {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      align-items: center;
-    }
-
-    .contact-link {
-      color: var(--text-main);
-      text-decoration: none;
-      font-size: 1.1rem;
-      transition: color 0.2s;
-    }
-
-    .contact-link:hover {
-      color: var(--accent-color);
-    }
-
-    /* ===== RESPONSIVE ===== */
-    @media (max-width: 600px) {
-      .hero h1 { font-size: 2.2rem; }
-      .intro-text { font-size: 1.1rem; text-align: left; }
-      .contact-panel { padding: 25px; }
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -244,7 +71,7 @@
 
         <!-- Japo's Car Wash -->
         <a href="assets/Japo's Car Wash/" class="project-card">
-          <img src="assets/Japo's Car Wash/portada.jpg" alt="Japo's Car Wash" class="project-cover" onerror="this.src='assets/Japo's Car Wash/portada.png'; this.onerror=null;">
+          <img src="assets/Japo's Car Wash/portada.jpg" alt="Japo's Car Wash" class="project-cover" onerror="this.src='assets/Japos Car Wash/portada.png'; this.onerror=null;">
           <div class="project-info">
             <span class="project-name">Japo's Car Wash</span>
             <span class="project-arrow">→</span>
@@ -324,13 +151,28 @@
 
     <!-- ===== CONTACT PANEL ===== -->
     <footer class="contact-panel">
-      <h2>Let's work together</h2>
-      <div class="contact-name">Jasiel Barreto</div>
-      <div class="contact-details">
-        <a href="tel:+523313520320" class="contact-link">33 1352 0320</a>
-        <a href="mailto:jasielbarreto37@gmail.com" class="contact-link">jasielbarreto37@gmail.com</a>
-      </div>
-    </footer>
+    <h2>Let's work together</h2>
+
+    <div class="contact-name">
+        Jasiel Barreto
+    </div>
+
+    <div class="contact-details">
+        <a href="tel:+523313520320" class="contact-link">
+            33 1352 0320
+        </a>
+
+        <a href="mailto:jasielbarreto37@gmail.com" class="contact-link">
+            jasielbarreto37@gmail.com
+        </a>
+    </div>
+
+    <div class="footer-credit">
+        Designed & developed by
+        <span>LAMAT Creative Studio</span>
+    </div>
+
+</footer>
 
   </div>
 
