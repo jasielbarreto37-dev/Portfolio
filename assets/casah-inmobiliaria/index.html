@@ -9,6 +9,39 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
   
   <link rel="stylesheet" href="../../style.css">
+
+<style>
+
+/* SOLO el CSS específico de esta página */
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+    gap:20px;
+}
+
+.gallery-item{
+    background:var(--card-bg);
+    border-radius:8px;
+    overflow:hidden;
+    border:1px solid transparent;
+    transition:.2s;
+    display:block;
+}
+
+.gallery-item:hover{
+    transform:translateY(-3px);
+    border-color:var(--accent-color);
+}
+
+.gallery-img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    display:block;
+}
+
+</style>
   
 </head>
 <body>
