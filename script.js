@@ -90,6 +90,9 @@ function setLanguage(lang){
         document.getElementById("footer").textContent =
             defaultTexts.footer;
 
+        document.getElementById("footerBranding").textContent =
+            defaultTexts.footerBranding;
+
     }else{
 
         // ===== Traducir al español =====
@@ -126,6 +129,9 @@ function setLanguage(lang){
 
         document.getElementById("footer").textContent =
             translations.es.footer;
+
+        document.getElementById("footerBranding").textContent =
+            translations.es.footerBranding;
 
     }
 

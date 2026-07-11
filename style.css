@@ -37,7 +37,7 @@
 
     gap:12px;
 
-    margin:25px 0;
+    margin:15px 0 0 0;
 
 }
 
@@ -90,7 +90,7 @@
     justify-content:space-between;
     gap:60px;
 
-    padding:100px 0 70px;
+    padding:30px 0 70px;
 }
 
 .hero-text{
@@ -262,19 +262,20 @@
     }
 
 
-    /* ===== FOOTER CREDIT ===== */
-.footer-credit{
-    margin-top:40px;
-    padding-top:20px;
-    border-top:1px solid #444;
-    color:var(--text-muted);
-    font-size:.9rem;
-    letter-spacing:.5px;
+   /* ===== FOOTER CREDIT ===== */
+.footer-credit {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    color: var(--text-muted);
+    font-size: .9rem;
+    letter-spacing: .5px;
+    text-align: center; /* Opcional: por si quieres que se centre igual que el panel de contacto */
 }
 
-.footer-credit span{
-    color:var(--accent-color);
-    font-weight:600;
+.footer-credit span {
+    color: var(--accent-color) !important; /* El !important asegura el color dorado sobre cualquier otra regla */
+    font-weight: 600;
 }
 
 /* ===== HERO TAGS ===== */

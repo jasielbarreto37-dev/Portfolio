@@ -21,7 +21,9 @@ const translations = {
         contactPanel:
         "Trabajemos juntos",
 
-        footer: "Diseñado y desarrollado por",
+        footer: "Diseñado y desarrollado por ",
+
+        footerBranding: "LAMAT Creative Studio",
 
 
     }
