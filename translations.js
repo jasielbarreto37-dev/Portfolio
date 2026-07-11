@@ -2,7 +2,7 @@ const translations = {
 
     es: {
 
-        heroSubTitle: "Diseñador Gráfico especializado en branding y marketing",
+        heroSubtitle: "Diseñador Gráfico especializado en branding y marketing",
 
         intro:
         "Diseñador gráfico con experiencia en branding, recursos de marketing, flujos de trabajo asistidos por IA y diseño orientado al cliente. Creo elementos visuales que combinan creatividad y objetivos empresariales, ayudando a las marcas a comunicarse con claridad y a mejorar sus tasas de conversión.",

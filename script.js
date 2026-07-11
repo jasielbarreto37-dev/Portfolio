@@ -15,36 +15,43 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function setLanguage(lang){
 
-    // Cambiar textos
+    if(lang === "en"){
+
+        localStorage.setItem("language","en");
+
+        return;
+
+    }
+
     document.getElementById("hero-subtitle").textContent =
-        translations[lang].heroSubtitle;
+        translations.es.heroSubtitle;
 
     document.getElementById("intro").textContent =
-        translations[lang].intro;
+        translations.es.intro;
     
     document.getElementById("skill-1").textContent =
-    translations[lang].skill1;
+    translations.es.skill1;
 
     document.getElementById("skill-2").textContent =
-    translations[lang].skill2;
+    translations.es.skill2;
 
     document.getElementById("skill-3").textContent =
-    translations[lang].skill3;
+    translations.es.skill3;
 
     document.getElementById("skill-4").textContent =
-    translations[lang].skill4;
+    translations.es.skill4;
 
     document.getElementById("skill-5").textContent =
-    translations[lang].skill5;
+    translations.es.skill5;
 
     document.getElementById("availability").textContent =
-    translations[lang].availability;
+    translations.es.availability;
 
     document.getElementById("contactPanel").textContent =
-    translations[lang].contactPanel;
+    translations.es.contactPanel;
 
     document.getElementById("footer").textContent =
-    translations[lang].footer;
+    translations.es.footer;
 
     // Botón activo
     document.getElementById("btn-es")
