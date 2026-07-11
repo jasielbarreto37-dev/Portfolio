@@ -24,14 +24,17 @@ const translations = {
 
         projectTitle: "Proyecto:",
 
-        backToPortfolio: "Regresar al Portafolio",
+        backToPortfolio: "← Regresar al Portafolio",
 
         AiArt: "Arte en IA",
 
         AiArtDesc: "Exploración visual y generación de recursos mediante IA generativa. Este proyecto exhibe el uso avanzado de metodologías de *prompting* y flujos de trabajo optimizados para crear conceptos visuales complejos, arte digital y recursos gráficos comerciales. Asimismo, demuestra cómo la IA puede complementar los procesos de diseño tradicionales a través de una dirección artística precisa y un control técnico riguroso.",
 
+        bonolitos: "Bonolitos",
 
+        bonolitosDesc: "Desarrollo integral de la identidad de marca y la imagen visual de Bonolitos, una marca de juguetes educativos inspirada en la metodología Montessori. El proyecto abarca la creación del logotipo principal y de una familia de mascotas personalizadas con forma de dinosaurio, diseñadas para conectar con el público infantil. Asimismo, se elaboró ​​una maqueta de un espacio de venta para visualizar el diseño del entorno de la marca y su presencia en un centro comercial.",
 
+        
 
     }
 

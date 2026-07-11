@@ -7,6 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../../style.css" />
   
   <style>
     /* ===== VARIABLES & BASE ===== */
@@ -118,17 +120,32 @@
 </head>
 <body>
 
+  <div class="language-switch">
+
+    <button id="btn-en" class="lang-btn active">
+    EN
+</button>
+
+<button id="btn-es" class="lang-btn">
+    ES
+</button>
+
+</div>
+
   <div class="container">
     
     <!-- Navigation Back to Portfolio Root -->
     <nav class="back-nav">
-      <a href="../../index.html" class="back-link">← Back to Portfolio</a>
+      <a href="../../index.html" id="backToPortfolio" class="back-link">← Back to Portfolio</a>
     </nav>
 
     <!-- Project Header with Introduction -->
     <header class="project-header">
-      <h1 class="project-title">Project: <span>Bonolitos</span></h1>
-      <p class="project-desc">
+      <header class="project-header">
+      <h1 id="projectTitle" class="project-title">Project:
+      <span id="bonolitos">Bonolitos</span></h1>
+
+      <p id="bonolitosDesc" class="project-desc">
         Complete brand identity and visual development for Bonolitos, a Montessori-inspired educational toy brand. This project includes the creation of the core logo and a family of custom dinosaur mascot characters designed to engage young audiences. Additionally, a retail space mockup was developed to visualize the brand’s environmental design and presence within a commercial mall setting.
       </p>
     </header>
@@ -155,7 +172,7 @@
 
     </main>
 
-    <script src="../translations.js"></script>
+    <script src="../../translations.js"></script>
     <script src="script.js"></script>
 
   </div>
