@@ -43,6 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
     defaultTexts.footer =
         document.getElementById("footer").textContent;
 
+    defaultTexts.footerBranding =
+        document.getElementById("footerBranding").textContent;
+
     // Cargar idioma guardado
     const savedLanguage =
         localStorage.getItem("language") || "en";

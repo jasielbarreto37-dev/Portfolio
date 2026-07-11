@@ -262,20 +262,26 @@
     }
 
 
-   /* ===== FOOTER CREDIT ===== */
-.footer-credit {
-    margin-top: 40px;
-    padding-top: 20px;
-    border-top: 1px solid #444;
-    color: var(--text-muted);
-    font-size: .9rem;
-    letter-spacing: .5px;
-    text-align: center; /* Opcional: por si quieres que se centre igual que el panel de contacto */
+    /* ===== FOOTER CREDIT ===== */
+
+.footer-credit{
+
+    margin-top:40px;
+    padding-top:20px;
+    border-top:1px solid #444;
+    color:var(--text-muted);
+    font-size:.9rem;
+    letter-spacing:.5px;
+
 }
 
-.footer-credit span {
-    color: var(--accent-color) !important; /* El !important asegura el color dorado sobre cualquier otra regla */
-    font-weight: 600;
+
+
+.footer-credit span{
+
+    color:var(--accent-color);
+    font-weight:600;
+
 }
 
 /* ===== HERO TAGS ===== */
