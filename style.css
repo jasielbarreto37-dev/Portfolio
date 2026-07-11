@@ -28,59 +28,36 @@
     }
 
     /* ===== LANGUAGE SWITCH ===== */
-
-.language-switch{
-
-    display:flex;
-
-    justify-content:flex-end;
-
-    gap:12px;
-
-    margin:15px 0 0 0;
-
+.language-switch {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin: 15px 0 0 0;
 }
 
-.lang-btn{
-
-    padding:10px 18px;
-
-    border:1px solid var(--accent-color);
-
-    background:transparent;
-
-    color:var(--text-main);
-
-    border-radius:999px;
-
-    cursor:pointer;
-
-    font-family:inherit;
-
-    font-size:.9rem;
-
-    font-weight:600;
-
-    transition:.25s ease;
-
+.lang-btn {
+    padding: 10px 18px;
+    border: 1px solid var(--accent-color);
+    background: transparent;
+    color: var(--text-main);
+    border-radius: 999px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: .9rem;
+    font-weight: 600;
+    transition: .25s ease;
 }
 
-.lang-btn:hover{
-
-    background:var(--accent-color);
-
-    color:#1E1E1E;
-
-    transform:translateY(-2px);
-
+.lang-btn:hover {
+    background: var(--accent-color) !important;
+    color: #1E1E1E !important;
+    transform: translateY(-2px);
 }
 
-.lang-btn.active{
-
-    background:var(--accent-color);
-
-    color:#1E1E1E;
-
+/* Fuerza el estado activo e impide que las clases de abajo lo rompan */
+.lang-btn.active {
+    background: var(--accent-color) !important;
+    color: #1E1E1E !important;
 }
 
     /* ===== HERO SECTION ===== */
@@ -263,25 +240,21 @@
 
 
     /* ===== FOOTER CREDIT ===== */
-
-.footer-credit{
-
-    margin-top:40px;
-    padding-top:20px;
-    border-top:1px solid #444;
-    color:var(--text-muted);
-    font-size:.9rem;
-    letter-spacing:.5px;
-
+.footer-credit {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    color: var(--text-muted);
+    font-size: .9rem;
+    letter-spacing: .5px;
+    text-align: center; /* Para centrarlo con la tarjeta de arriba */
 }
 
-
-
-.footer-credit span{
-
-    color:var(--accent-color);
-    font-weight:600;
-
+/* Usamos el ID para asegurar que nada le gane */
+#footerBranding {
+    color: var(--accent-color) !important;
+    font-weight: 600;
+    margin-left: 4px; /* Un pequeño espacio para separarlo del "by" */
 }
 
 /* ===== HERO TAGS ===== */
